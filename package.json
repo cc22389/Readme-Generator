@@ -1,0 +1,28 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "holds required dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cc22389/Readme-Generator.git"
+  },
+  "keywords": [
+    "npm",
+    "init"
+  ],
+  "author": "Casey Morgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cc22389/Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/cc22389/Readme-Generator#readme",
+  "dependencies": {
+    "filename": "^0.5.0",
+    "inquirer": "^7.3.3",
+    "lists": "^0.2.15"
+  }
+}
