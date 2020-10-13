@@ -1,3 +1,6 @@
+#Requirement
+.DS_Store
+
 # Logs
 logs
 *.log
