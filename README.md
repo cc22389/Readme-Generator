@@ -32,8 +32,8 @@
   - Repository &mdash; https://github.com/cc22389/Readme-Generator.git
 
   ## Video Example
-  - https://drive.google.com/file/d/112LJIYhyU-yK7iFDNy7xIcuDH0m0sv1P/view
-  
+
+  - https://drive.google.com/file/d/1kZhbctvWdAOjSJu5ErEjZkuJEB9lp7AU/view  
   
   ## License
   
