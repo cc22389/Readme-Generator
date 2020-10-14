@@ -1,12 +1,12 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./util/generateMarkdown.js");
 
 const questions = [
     {
         type: "input",
-        name: "username",
+        name: "github",
         message: "What is your GitHub username?"
     },
     {
@@ -16,7 +16,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "project name",
+        name: "title",
         message: "What is your project's name?"
     },
     {
@@ -66,14 +66,14 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), filename), data);
-}
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+  }
 
 function init() {
     inquirer.prompt(questions)
     .then((inquirerResponses) => {
         console.log("Generating README...");
-        writeToFile("README.md", generateMarkdown({...inquirerResponses}));
+        writeToFile("sampleREADME.md", generateMarkdown({...inquirerResponses}));
     })
 }
 

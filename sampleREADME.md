@@ -1,9 +1,9 @@
-# Readme-Generator
+# Sample-ReadMe-Generator
   ![GitHub license](https://img.shields.io/badge/license-Unlicense-blue.svg)
   
   ## Description
   
-  A README generator that quickly creates a professional README for a new project.
+  This is a demo sample of the Readme-Generator
   
   ## Table of Contents 
   
@@ -11,7 +11,7 @@
   
   * [Usage](#usage)
   
-  * [License](#license)
+* [License](#license)
 
   * [Contributing](#contributing)
   
@@ -27,13 +27,9 @@
   npm i
   ```
   
-  ## Links
-  - Deployed URL &mdash; https://cc22389.github.io/Readme-Generator/
-  - Repository &mdash; https://github.com/cc22389/Readme-Generator.git
-
-  ## Video Example
-  - https://drive.google.com/file/d/112LJIYhyU-yK7iFDNy7xIcuDH0m0sv1P/view
+  ## Usage
   
+  No dev dependencies or global dependencies
   
   ## License
   
@@ -41,8 +37,7 @@
     
   ## Contributing
   
-  No contributions necessary, but thank you!
-  
+  Nothing for this example.
   
   ## Tests
   
@@ -54,6 +49,6 @@
   
   ## Questions
   
-  If you have any questions about the repo, open an issue or contact me directly at caseyjeanmorgan@gmail.com . You can find more of my work at [cc22389](https://github.com/cc22389/)
+  If you have any questions about the repo, open an issue or contact me directly at caseyjeanmorgan@gmail.com. You can find more of my work at [cc22389](https://github.com/cc22389/).
   
   
